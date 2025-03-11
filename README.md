@@ -3,11 +3,11 @@ Proyecto de música - Base de datos y página web
 
 ---
 ## Índice de Contenidos
-1. [Canciones](#canciones-incluidas-en-el-proyecto)
-2. [Colaboradoras](#colaboradoras-del-proyecto)
+1. [Canciones](#🎹-canciones-incluidas-en-el-proyecto)
+2. [Colaboradoras](#🙋‍♀️-colaboradoras-del-proyecto)
 
 ---
-### Canciones incluidas en el proyecto
+### 🎹 Canciones incluidas en el proyecto
 |                                                     |                                      |
 |-----------------------------------------------------|--------------------------------------|
 | Pink Pony Club                                      | Troublemaker                         |
@@ -33,7 +33,7 @@ Proyecto de música - Base de datos y página web
 
 
 ---
-### Colaboradoras del proyecto
+### 🙋‍♀️ Colaboradoras del proyecto
 - María Ledesma Zotano.
     - HTML y CSS.
     - JSON canciones.
