@@ -52,10 +52,15 @@ Proyecto de música - Base de datos y página web
 ---
 ### Colaboradoras del proyecto
 - María Ledesma Zotano.
-    - Markdown Github.
+    - HTML y CSS.
     - JSON canciones.
+    - Base de datos de las canciones.
+    - Markdown Github.
 - Adriana Salazar Daza.
+    - HTML y CSS.
     - JSON canciones.
     - Base de datos de las canciones.
 - Ainhoa Quintero González.
+    - HTML y CSS.
     - JSON canciones.
+    - Base de datos de las canciones.
