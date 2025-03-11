@@ -8,46 +8,29 @@ Proyecto de música - Base de datos y página web
 
 ---
 ### Canciones incluidas en el proyecto
-- Pink Pony Club
-- Good Luck, Babe!
-- I Kissed A Girl
-- Que Te Quería
-- Flowers
-- Mujer Contra Mujer
-- Clean (Taylor's Version)
-- Guilty as Sin?
-- Forever & Always (Taylor's Version)
-- Mr. Perfectly Fine (Taylor's Version)
-- All Too Well (10 Minute Version) (Taylor's Version)
-- imgonnagetyouback
-- COSAS QUE NO TE DIJE
-- como si no importara
-- That's Life
-- That's So True
-- La Santa
-- Lay All Your Love On Me
-- The Best
-- Step by Step
-- Troublemaker
-- Centuries
-- Stargazing
-- APT.
-- Limbo
-- Cuando zarpa el amor
-- Ave María
-- What's Up Danger (with Black Caviar)
-- HALO
-- The Door (TiagoPZK Version)
-- Olvidé Olvidarte
-- GUAPA CABREÁ
-- MR. MOONDIAL
-- Vértigo
-- Abracadabra
-- La La La
-- Sports Car
-- Right Now
-- Algo Me Gusta De Ti
-- Mala Costumbre
+|                                                                                            |
+|-----------------------------------------------------|--------------------------------------|
+| Pink Pony Club                                      | Troublemaker                         |
+| Good Luck, Babe!                                    | Centuries                            |
+| I Kissed A Girl                                     | Stargazing                           |
+| Que Te Quería                                       | APT.                                 |
+| Flowers                                             | Limbo                                |
+| Mujer Contra Mujer                                  | Cuando zarpa el amor                 |
+| Clean (Taylor's Version)                            | Ave María                            |
+| Guilty as Sin?                                      | What's Up Danger (with Black Caviar) |
+| Forever & Always (Taylor's Version)                 | HALO                                 |
+| Mr. Perfectly Fine (Taylor's Version)               | The Door (TiagoPZK Version)          |
+| All Too Well (10 Minute Version) (Taylor's Version) | Olvidé Olvidarte                     |
+| imgonnagetyouback                                   | GUAPA CABREÁ                         |
+| COSAS QUE NO TE DIJE                                | MR. MOONDIAL                         |
+| como si no importara                                | Vértigo                              |
+| That's Life                                         | Abracadabra                          |
+| That's So True                                      | La La La                             |
+| La Santa                                            | Sports Car                           |
+| Lay All Your Love On Me                             | Right Now                            |
+| The Best                                            | Algo Me Gusta De Ti                  |
+| Step by Step                                        | Mala Costumbre                       |
+
 
 ---
 ### Colaboradoras del proyecto
