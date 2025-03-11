@@ -32,7 +32,7 @@ header h1 {
 }
 
 /* Contenedor principal */
-.container {
+.div-general {
     display: flex;
     width: 90%;
     max-width: 900px;
