@@ -36,7 +36,7 @@ body {
 /* Encabezado */
 header {
     width: 100%;
-    background: #8D6E63; /* Marrón cálido */
+    background: #6e2543; /* Marrón cálido */
     padding: 15px 0;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@ header h1 {
 /* Barra lateral */
 .sidebar {
     width: 30%;
-    background: #8D8C6F;
+    background: #6e2543; /*6e2543*/
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -199,8 +199,8 @@ button:hover {
 /* Footer */
 footer {
     width: 100%;
-    background: #8D6E63; /* Mismo color que el header */
-    padding: 15px 0;
+    background: #6e2543; /* Mismo color que el header */
+    padding: 20px 0;
     text-align: center;
     color: white;
     font-size: 14px;
