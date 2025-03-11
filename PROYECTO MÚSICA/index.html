@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Index · LyricHaven">
+        <meta name="authors" content="María Ledesma Zotano, Adriana Salazar Daza & Ainhoa Quintero González">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Inicio · LyricHaven</title>
+    </head>
+
+    <!-- ESTO ES LO DEL PROFE Y LO PONGO COMO EJEMPLO PARA IR TENIENDO ALGO -->
+
+    <body>
+        <header>
+            <h1>Ejemplo de acceso a MongoDB con JavaScript y servidor Node.JS</h1>
+        </header>
+
+        <div class="container">
+            <!-- Panel lateral -->
+            <aside class="sidebar">
+                <!-- Base de datos -->
+                <div class="db-container">
+                    <img src="imagenes/folder.png" alt="Base de Datos" class="db-image">
+                    <h2>BD: BD_usuarios</h2>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filters-container">
+                    <img src="imagenes/filters.png" alt="Filtros" class="filters-image">
+                    <h2>Filtros</h2>
+                </div>
+
+                <!-- Cajas para introducir los filtros -->
+                <input type="text" id="nameSearch" placeholder="Buscar por nombre...">
+
+                <input type="text" id="emailSearch" placeholder="Buscar por email...">
+
+                <!-- Botones para buscar según los filtros -->
+                <button id="searchByNameButton" class="filter-button">
+                    <img src="imagenes/search_name.png" alt="Buscar por nombre" class="button-icon">
+                    Buscar por nombre
+                </button>
+                
+                <button id="searchByEmailButton" class="filter-button">
+                    <img src="imagenes/search_email.png" alt="Buscar por email" class="button-icon">
+                    Buscar por email
+                </button>
+
+                <button id="showAllButton" class="filter-button all-button">
+                    <img src="imagenes/search_all.png" alt="Mostrar todos" class="button-icon">
+                    Mostrar todos los usuarios
+                </button>
+            </aside>
+
+            <!-- Contenido principal -->
+            <main class="content">
+                <h1>Usuarios recuperados</h1>
+                <div id="output" class="grid-container"></div>
+            </main>
+        </div>
+
+        <footer>
+            <p>Lenguajes de marcas y sistemas de gestión de información. Unidad Didáctica 05 - JSON y los SGBD</p>
+        </footer>
+
+        <!-- Scripts necesarios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+        <script src="js/javascript.js"></script>
+    </body>
+</html>

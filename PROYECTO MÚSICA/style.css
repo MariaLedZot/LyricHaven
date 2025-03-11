@@ -1,0 +1,205 @@
+/* <!-- ESTO ES LO DEL PROFE Y LO PONGO COMO EJEMPLO PARA IR TENIENDO ALGO --> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: #F5E7D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    background: #8D6E63; /* Marrón cálido */
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    height: 80vh;
+    background: #D9C2A7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 20px; /* Espacio debajo del header */
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 30%;
+    background: #8D8C6F;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Input */
+input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #A67C52;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Botones */
+button {
+    background: #A67C52;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6E4F30;
+}
+
+.all-button {
+    background: #7D5A4F;
+}
+
+.all-button:hover {
+    background: #5A4034;
+}
+
+/* Contenido principal */
+.content {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 22px;
+    color: #6E4F30;
+    margin-bottom: 15px;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    overflow-y: auto; /* Activa la barra de desplazamiento vertical */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    width: 100%;
+}
+
+.grid-item {
+    background: #E6D5BD;
+    color: #6E4F30;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: transform 0.3s ease-in-out;
+    text-align: left;  /* Alinea el texto a la izquierda */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Asegura que el contenido también se alinee a la izquierda */
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+/* Contenedor de Base de Datos */
+.db-container, .filters-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Imágenes de Base de Datos y Filtros */
+.db-image, .filters-image {
+    width: 40px;
+    height: auto;
+}
+
+/* Botones con imágenes */
+.filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #A67C52;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-button:hover {
+    background: #6E4F30;
+}
+
+/* Íconos dentro de los botones */
+.button-icon {
+    width: 20px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #8D6E63; /* Mismo color que el header */
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .sidebar, .content {
+        width: 100%;
+    }
+}
