@@ -8,7 +8,7 @@ Proyecto de música - Base de datos y página web
 
 ---
 ### Canciones incluidas en el proyecto
-|                                                                                            |
+|                                                     |                                      |
 |-----------------------------------------------------|--------------------------------------|
 | Pink Pony Club                                      | Troublemaker                         |
 | Good Luck, Babe!                                    | Centuries                            |
