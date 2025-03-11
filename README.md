@@ -3,11 +3,11 @@ Proyecto de música - Base de datos y página web
 
 ---
 ## Índice de Contenidos
-1. [Canciones](#canciones-incluídas-en-el-proyecto.)
-1. [Colaboradoras](#colaboradoras-del-proyecto.)
+1. [Canciones](#canciones-incluidas-en-el-proyecto)
+2. [Colaboradoras](#colaboradoras-del-proyecto)
 
 ---
-### Canciones incluídas en el proyecto.
+### Canciones incluidas en el proyecto
 - Pink Pony Club
 - Good Luck, Babe!
 - I Kissed A Girl
@@ -50,7 +50,7 @@ Proyecto de música - Base de datos y página web
 - Mala Costumbre
 
 ---
-### Colaboradoras del proyecto.
+### Colaboradoras del proyecto
 - María Ledesma Zotano.
     - Markdown Github.
     - JSON canciones.
