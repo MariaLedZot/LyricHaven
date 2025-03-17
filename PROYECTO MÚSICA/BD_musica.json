@@ -238,5 +238,54 @@
     "autor": "Manuel Turizo, Wisin & Yandel",
     "duracion": "3:51",
     "fechaLanzamiento": "2021"
-    }
+    },
+    //empiezo aqui
+    {
+    "nombre": "Viva La Vida",
+    "autor": "Imagine Dragons",
+    "duracion": "4:02",
+    "fechaLanzamiento": "2008"
+    },
+    {
+    "nombre": "Bones",
+    "autor": "Imagine Dragons",
+    "duracion": "2:45",
+    "fechaLanzamiento": "2022"
+    },
+    {
+    "nombre": "There's Nothing Holding'Me Back",
+    "autor": "Shawn Mendes",
+    "duracion": "2:19",
+    "fechaLanzamiento": "2016"
+    },
+    {
+    "nombre": "Treat You Better",
+    "autor": "Shawn Mendes",
+    "duracion": "3:07",
+    "fechaLanzamiento": "2016"
+    },
+    {
+    "nombre": "Stiches",
+    "autor": "Shawn Mendes",
+    "duracion": "3:26",
+    "fechaLanzamiento": "2015"
+    },
+    {
+    "nombre": "Enemy",
+    "autor": "Imagine Dragons, J.I.D",
+    "duracion": "2:53",
+    "fechaLanzamiento": "2021"
+    },
+    {
+    "nombre": "Thunder",
+    "autor": "Imagine Dragons",
+    "duracion": "3:07",
+    "fechaLanzamiento": "2017"
+    },
+    {
+    "nombre": "Thunder",
+    "autor": "Imagine Dragons",
+    "duracion": "3:07",
+    "fechaLanzamiento": "2017"
+    },
 ]
