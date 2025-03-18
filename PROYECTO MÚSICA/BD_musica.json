@@ -239,7 +239,6 @@
     "duracion": "3:51",
     "fechaLanzamiento": "2021"
     },
-    //empiezo aqui
     {
     "nombre": "Viva La Vida",
     "autor": "Imagine Dragons",
@@ -287,5 +286,5 @@
     "autor": "Imagine Dragons",
     "duracion": "3:07",
     "fechaLanzamiento": "2017"
-    },
+    }
 ]
