@@ -1,0 +1,8 @@
+[
+    {
+    "nombre": "", //Nombre del Grupo
+    "genero": "", //Genero Musical
+    "fechaCreacion": "", //Fecha de Creación del Grupo
+    "integrantes": [""] //Integrantes del Grupo
+    }
+]
