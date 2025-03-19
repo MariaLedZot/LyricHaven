@@ -48,6 +48,29 @@ header h1 {
     font-weight: bold;
 }
 
+/*Este es el menu navegacion, los colores cambiadlo si quereis*/
+.MenuNav{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    background-color:#7D5A4F;
+}
+
+.Li a{
+    text-decoration: none;
+    color: #f7e2e9;
+}
+
+.Li a:hover{
+    color:#ffa9c5;
+    transition: 0.7 ease; 
+}
+
 /* Contenedor principal */
 .div-general {
     display: flex;
