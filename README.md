@@ -31,7 +31,6 @@ Proyecto de música - Base de datos y página web 🎧
 | The Best                                            | Algo Me Gusta De Ti                  |
 | Step by Step                                        | Mala Costumbre                       |
 
-- (Por añadir las 20 canciones de Ainhoa)
 ---
 ### Colaboradoras del proyecto
 - María Ledesma Zotano.
