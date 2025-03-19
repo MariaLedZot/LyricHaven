@@ -1,0 +1,131 @@
+<!-- Se espera que se use la misma estructura BASE en todas las páginas -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Start · LyricHaven">
+    <meta name="authors" content="María Ledesma Zotano, Adriana Salazar Daza & Ainhoa Quintero González">
+    <link rel="stylesheet" href="../style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <h1>LyricHaven · Inicio</h1>
+    </header>
+
+    <nav class="MenuNav"> 
+        <li class="Li"><a href="../PAGINA WEB/pages/start.html">Inicio</a></li>
+        <li class="Li"><a href="../PAGINA WEB/pages/about-us.html">Sobre Nosotras</a></li>
+        <li class="Li" ><a href="../PAGINA WEB/pages/favorites.html">Favoritos</a></li>
+        <li class="Li"><a href="../PAGINA WEB/pages/lyrics.html">Lyrics</a></li>
+    </nav>
+
+        <!--Parte de la izquierda = Div-->
+        
+        <!--Cambiar los parrafos si quereis-->
+        <div class="start-div">
+            <h2>¡Bienvenido a LyricHaven!</h2>
+            <p>En esta página web podrás encontrar las letras de tus canciones favoritas, añadirlas a tus favoritos y buscarlas por nombre, artista...</p>
+            <p>¡Esperamos que disfrutes de tu estancia!</p>
+
+        </div>
+        <!--Parte de la derecha = Main-->
+        <main>
+
+        </main>
+
+        <footer>
+            <p></p>
+        </footer>
+    </body>
+
+</html>
+
+
+
+<!--ES LO DEL PROFE PARA TOMAR REFERENCIAS, LO NUESTRO ES LO DE ARRIBA-->
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Index · LyricHaven">
+        <meta name="authors" content="María Ledesma Zotano, Adriana Salazar Daza & Ainhoa Quintero González">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Solo la página en la que nos encontramos -->
+        <title>Inicio</title>
+    </head>
+
+    <body>
+
+        <!-- Header: Nombre del proyecto y página en la que nos  encontramos -->
+        <header>
+            <h1>LyricHaven · Inicio</h1>
+        </header>
+
+        <!-- DIV GENERAL -->
+        <div class="div-general">
+
+            <!-- PARTE DE LA IZQUIERDA (PANEL DE BÚSQUEDA) -->
+            <aside class="sidebar">
+
+                <!-- Base de datos -->
+                <div class="db-container">
+                    <img src="images/folder.png" alt="Base de Datos" class="db-image">
+                    <h2>BD: LyricHaven_BD</h2>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filters-container">
+                    <img src="images/filters.png" alt="Filtros" class="filters-image">
+                    <h2>Filtros</h2>
+                </div>
+
+                <!-- Cajas para introducir los filtros -->
+                <input type="text" id="nameSearch" placeholder="Buscar por nombre...">
+
+                <input type="text" id="emailSearch" placeholder="Buscar por email...">
+                
+                <input type="text" id="nameSearch" placeholder="Buscar por nombre...">
+
+                <input type="text" id="emailSearch" placeholder="Buscar por email...">
+
+                <!-- Botones para buscar según los filtros -->
+                <button id="searchByNameButton" class="filter-button">
+                    <img src="images/search_name.png" alt="Buscar por nombre" class="button-icon">
+                    Buscar por nombre
+                </button>
+                
+                <button id="searchByEmailButton" class="filter-button">
+                    <img src="images/search_email.png" alt="Buscar por email" class="button-icon">
+                    Buscar por email
+                </button>
+
+                <button id="showAllButton" class="filter-button all-button">
+                    <img src="images/search_all.png" alt="Mostrar todos" class="button-icon">
+                    Mostrar todos los usuarios
+                </button>
+            </aside>
+
+            <!-- PARTE DE LA DERECHA (PANEL DE RESULTADOS) -->
+            <main class="content">
+                <h1>Usuarios recuperados</h1>
+                <div id="output" class="grid-container"></div>
+            </main>
+
+        </div>
+
+        <footer>
+            <p>Lenguajes de marcas y sistemas de gestión de información. Unidad Didáctica 05 - JSON y los SGBD</p>
+        </footer>
+
+        <!-- Scripts necesarios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
