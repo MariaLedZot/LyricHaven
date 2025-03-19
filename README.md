@@ -8,12 +8,12 @@ Proyecto de música - Base de datos y página web 🎧
 
 ---
 ### Canciones incluidas en el proyecto
-|                                                     |                                      |
-|-----------------------------------------------------|--------------------------------------|
-| Pink Pony Club                                      | Troublemaker                         |
-| Good Luck, Babe!                                    | Centuries                            |
-| I Kissed A Girl                                     | Stargazing                           |
-| Que Te Quería                                       | APT.                                 |
+|María                                                     |Adriana                                      |Ainhoa                                      |
+|-----------------------------------------------------|--------------------------------------|--------------------------------------|
+| Pink Pony Club                                      | Troublemaker                         | Viva la Vida |
+| Good Luck, Babe!                                    | Centuries                            | Bones |
+| I Kissed A Girl                                     | Stargazing                           | There's Nothing Holdin' Me Back |
+| Que Te Quería                                       | APT.                                 | Treat You Better |
 | Flowers                                             | Limbo                                |
 | Mujer Contra Mujer                                  | Cuando zarpa el amor                 |
 | Clean (Taylor's Version)                            | Ave María                            |
