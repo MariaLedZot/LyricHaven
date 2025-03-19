@@ -1,29 +1,40 @@
-<!-- Se espera que se use la misma estructura BASE en todas las páginas -->
+<!-- PÁGINA DE INICIO VISUAL QUE REDIRIJA A pages/start.html -->
+
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Start · LyricHaven">
-    <meta name="authors" content="María Ledesma Zotano, Adriana Salazar Daza & Ainhoa Quintero González">
-    <link rel="stylesheet" href="style.css">
-    <title>Inicio</title>
-</head>
-<body>
-    <header>
-        <h1>LyricHaven · Comienzo</h1>
-    </header>
 
-    <nav> 
-        <li><a href="../PAGINA WEB/pages/start.html">Inicio</a></li>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Start · LyricHaven">
+        <meta name="authors" content="María Ledesma Zotano, Adriana Salazar Daza & Ainhoa Quintero González">
+        <link rel="stylesheet" href="style.css">
+        <title>Comienzo</title>
+    </head>
 
-    <main>
+    <body>
 
-    </main>
+        <div class="index-background"></div>
+    
+        <div class="index-container">
+            <div class="index-content">
+                <h1 class="index-titulo">Lyric Haven</h1>
+                <a href="https://www.ejemplo.com" class="index-btn index-transition" id="comienzoBtn">COMIENZO</a>
+            </div>
+        </div>
+    
+        <script>
+            // Añadir la transición de opacidad para el botón de comienzo
+            const btn = document.getElementById('comienzoBtn');
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                btn.classList.add('transition');
+                setTimeout(() => {
+                    window.location.href = btn.href; // Redirige a la página
+                }, 500); // Espera 500ms antes de redirigir
+            });
+        </script>
+    </body>
 
-    <footer>
-        <p></p>
-    </footer>
-</body>
 </html>
