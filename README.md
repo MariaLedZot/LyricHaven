@@ -8,18 +8,18 @@ Proyecto de música - Base de datos y página web 🎧
 
 ---
 ### Canciones incluidas en el proyecto
-|                                                     |                                      |
-|-----------------------------------------------------|--------------------------------------|
-| Pink Pony Club                                      | Troublemaker                         |
-| Good Luck, Babe!                                    | Centuries                            |
-| I Kissed A Girl                                     | Stargazing                           |
-| Que Te Quería                                       | APT.                                 |
-| Flowers                                             | Limbo                                |
-| Mujer Contra Mujer                                  | Cuando zarpa el amor                 |
-| Clean (Taylor's Version)                            | Ave María                            |
-| Guilty as Sin?                                      | What's Up Danger (with Black Caviar) |
-| Forever & Always (Taylor's Version)                 | HALO                                 |
-| Mr. Perfectly Fine (Taylor's Version)               | The Door (TiagoPZK Version)          |
+|                                                     |                                      |                                                |
+|-----------------------------------------------------|--------------------------------------|------------------------------------------------|
+| Pink Pony Club                                      | Troublemaker                         | Viva la Vida                                   |
+| Good Luck, Babe!                                    | Centuries                            | Bones                                          |
+| I Kissed A Girl                                     | Stargazing                           | There's Nothing Holdin' Me Back                |
+| Que Te Quería                                       | APT.                                 | Treat You Better                               |
+| Flowers                                             | Limbo                                | Stitches                                       |
+| Mujer Contra Mujer                                  | Cuando zarpa el amor                 | Enemy (with JID)                               |
+| Clean (Taylor's Version)                            | Ave María                            | Thunder                                        |
+| Guilty as Sin?                                      | What's Up Danger (with Black Caviar) | Villano Antillano: Bzrp Music Session, Vol. 51 |
+| Forever & Always (Taylor's Version)                 | HALO                                 | STAY (with Justin Bieber)                      |
+| Mr. Perfectly Fine (Taylor's Version)               | The Door (TiagoPZK Version)          | Rather Be (feat. Jess Glynne)                  |
 | All Too Well (10 Minute Version) (Taylor's Version) | Olvidé Olvidarte                     |
 | imgonnagetyouback                                   | GUAPA CABREÁ                         |
 | COSAS QUE NO TE DIJE                                | MR. MOONDIAL                         |
@@ -30,7 +30,6 @@ Proyecto de música - Base de datos y página web 🎧
 | Lay All Your Love On Me                             | Right Now                            |
 | The Best                                            | Algo Me Gusta De Ti                  |
 | Step by Step                                        | Mala Costumbre                       |
-
 
 ---
 ### Colaboradoras del proyecto
