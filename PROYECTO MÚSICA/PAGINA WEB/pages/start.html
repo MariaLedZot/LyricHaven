@@ -11,41 +11,56 @@
     <title>Inicio</title>
 </head>
 <body>
-    <header>
-        <div class="start-h1"><!--Este h1 lo ponemos en el lado izquierdo del header y el nav lo ponemos a la derecha mejor-->
-            <img src="images/logo.png" alt="Logo de LyricHaven" class="logo"> <!--Hacemos la imagen en otro momento?? Y va a la izquierda del titulo de lyricheaven-->
-            <h1>LyricHaven · Inicio</h1>
-        </div>
-
-        <div class="start-nav"> <!--Vamos a meter el nav en el header y en vez de inicio y demás lo sustituimos por imágenes que te lleven a cada página-->
-            <nav class="MenuNav"> 
-                <li class="Li"><a href="start.html">Inicio</a></li>
-                <li class="Li"><a href="about-us.html">Sobre Nosotras</a></li>
-                <li class="Li"><a href="favorites.html">Favoritos</a></li>
-                <li class="Li"><a href="lyrics.html">Lyrics</a></li>
+    <div class="container">
+        <header>
+            <h1>LyricHeaven</h1>
+            <nav>
+                <a href="#"><img src="home-icon.png" alt="Inicio"></a>
+                <a href="#"><img src="user-icon.png" alt="Perfil"></a>
+                <a href="#"><img src="heart-icon.png" alt="Favoritos"></a>
+                <a href="#"><img src="music-icon.png" alt="Música"></a>
             </nav>
-        </div>
-    </header>
-
-    <div class="start-div_general"> <!--Div general que contiene la parte de la izquierda y la de la derecha-->
-        <!--Parte de la izquierda = Div-->
-        <!--Cambiar los parrafos si quereis-->
-        <div class="start-div_left">
-            
-        </div>
-        <!--Parte de la derecha = Main-->
+        </header>
         <main>
-
+            <aside class="filters">
+                <h2>Filtros</h2>
+                <input type="text" placeholder="Buscar por nombre">
+                <input type="text" placeholder="Buscar por autor">
+                <input type="text" placeholder="Buscar por duración">
+                <input type="text" placeholder="Buscar por fecha">
+                <button>Mostrar todo</button>
+            </aside>
+            <section class="songs">
+                <div class="song red">
+                    <img src="troblemaker.jpg" alt="Trobemaler">
+                    <div class="info">
+                        <h3>Troblemaker</h3>
+                        <p>Autor: Olly Murs</p>
+                        <p>Duración: 3:05</p>
+                        <p>Fecha lanzamiento: 2012</p>
+                    </div>
+                </div>
+                <div class="song purple">
+                    <img src="troblemaker.jpg" alt="Trobemaler">
+                    <div class="info">
+                        <h3>Troblemaker</h3>
+                        <p>Autor: Olly Murs</p>
+                        <p>Duración: 3:05</p>
+                        <p>Fecha lanzamiento: 2012</p>
+                    </div>
+                </div>
+                <div class="placeholder green"></div>
+                <div class="placeholder lightgreen"></div>
+            </section>
         </main>
-
         <footer>
-            <p></p>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="music-icon.png" alt="Música"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
         </footer>
-    </body>
-
+    </div>
+</body>
 </html>
-
-
 
 <!--ES LO DEL PROFE PARA TOMAR REFERENCIAS, LO NUESTRO ES LO DE ARRIBA-->
 
