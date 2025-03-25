@@ -118,6 +118,7 @@ header h1 {
     font-weight: bold;
 }
 
+
 /*Este es el menu navegacion, los colores cambiadlo si quereis*/
 .MenuNav{
     list-style: none;
@@ -140,6 +141,33 @@ header h1 {
     color:#ffa9c5;
     transition: 0.7 ease; 
 }
+
+
+/*ESTO ES LO NUEVO PARA EL START*/
+.filters{
+    background-color: aliceblue;
+}
+
+.filtroBoton{
+    display: flex;
+}
+
+.buscaBoton{
+    width: 50px;
+    height: 35px;
+    border-radius: 0  10px  10px 0 ;
+
+}
+.filtroInput{
+    border-radius: 10px 0 0 10px ;
+    padding: 8.5px;
+    max-width: 100px;
+}
+
+
+
+
+
 
 /* Contenedor principal */
 .div-general {
