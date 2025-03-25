@@ -10,16 +10,54 @@
     <title>Sobre Nosotras</title>
 </head>
 <body>
-    <header>
-        <h1>LyricHaven · Sobre Nosotras</h1>
-    </header>
-
-    <nav class="MenuNav"> 
-        <li class="Li"><a href="start.html">Inicio</a></li>
-        <li class="Li"><a href="about-us.html">Sobre Nosotras</a></li>
-        <li class="Li"><a href="favorites.html">Favoritos</a></li>
-        <li class="Li"><a href="lyrics.html">Lyrics</a></li>
-    </nav>
-    
+    <div class="container">
+        <header>
+            <h1>LyricHeaven · Sobre Nosotras</h1>
+            <nav class="MenuNav">
+                <a href="start.html"><img src="home-icon.png" alt="Inicio"></a>
+                <a href="about-us.html"><img src="user-icon.png" alt="Sobre Nosotras"></a>
+                <a href="favorites.html"><img src="heart-icon.png" alt="Favoritos"></a>
+                <a href="lyrics.html"><img src="music-icon.png" alt="Lyrics"></a>
+            </nav>
+        </header>
+        
+        <main>
+            <aside class="filters">
+                <h2>Filtros</h2>
+                <input type="text" placeholder="Buscar por nombre">
+                <input type="text" placeholder="Buscar por autor">
+                <input type="text" placeholder="Buscar por duración">
+                <input type="text" placeholder="Buscar por fecha">
+                <button>Mostrar todo</button>
+            </aside>
+            <section class="songs">
+                <div class="song red">
+                    <img src="troblemaker.jpg" alt="Troublemaker">
+                    <div class="info">
+                        <h3>Troblemaker</h3>
+                        <p>Autor: Olly Murs</p>
+                        <p>Duración: 3:05</p>
+                        <p>Fecha lanzamiento: 2012</p>
+                    </div>
+                </div>
+                <div class="song purple">
+                    <img src="troblemaker.jpg" alt="Troublemaker">
+                    <div class="info">
+                        <h3>Troblemaker</h3>
+                        <p>Autor: Olly Murs</p>
+                        <p>Duración: 3:05</p>
+                        <p>Fecha lanzamiento: 2012</p>
+                    </div>
+                </div>
+                <div class="placeholder green"></div>
+                <div class="placeholder lightgreen"></div>
+            </section>
+        </main>
+        <footer>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="music-icon.png" alt="Música"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+        </footer>
+    </div>
 </body>
 </html>
