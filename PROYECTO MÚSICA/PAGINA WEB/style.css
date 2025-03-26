@@ -180,8 +180,10 @@ header h1 {
 
 /*Esta caja tiene todos los input y botones y todo lo de la der*/
 .filters{
-    background-color: #919191;
+    background-color: #D9D9D9; 
     padding: 10px;
+    min-width: fit-content;
+    border-radius: 10px;
 }
 /*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
 .filtroInput{
@@ -192,7 +194,7 @@ header h1 {
 }
 
 .filtroBuscar{
-    margin: 0;
+    margin-bottom: 5px;
     gap: 0px;
     display: flex;
 }
@@ -209,11 +211,13 @@ header h1 {
 
 .filtroTitulo{
     display: flex;
-    
+    margin-bottom: 10px;
 }
 
 .fotoFiltro{
     position: relative;
+    width: 30px;
+    margin-left: auto;
 }
 
 .botonBuscarTodo{
@@ -232,13 +236,47 @@ header h1 {
     background-color: white;
     padding: 10px;
     display: grid;
-    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
 }
 
 .song{
     border: 1px solid;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.TituloCancion{
+    padding: 7px;
+    background-color: #6e2543;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/*La img y la info*/
+.contenidoSong{
     display: flex;
-    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 6px;
+}
+
+/*Caja con los datos*/
+.info{
+    text-align: left;
+    gap: 10px;
+}
+.parr{
+    margin-bottom: 7px;
+}
+
+.imgBuscador{
+    width: 150px;
+    height: 150px;
 }
 
 
