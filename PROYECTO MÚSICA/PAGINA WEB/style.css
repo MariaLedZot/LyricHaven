@@ -96,20 +96,36 @@ header h1 {
 }
 
 .index-h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
     font-size: 3.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     animation: fadeIn 2s ease-in;
 }
 
 .index-texto {
-    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
     opacity: 0;
     animation: fadeInText 2s 0.5s forwards;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.index-btn {
+.index-texto2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeInText 2s 0.5s forwards;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.index-boton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 12px 25px;
     background: linear-gradient(45deg, #ff6b6b, #d45d5d);
     color: white;
@@ -119,10 +135,10 @@ header h1 {
     transition: 0.4s;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.777);
 }
 
-.index-btn:hover {
+.index-boton:hover {
     background: linear-gradient(45deg, #d45d5d, #ff6b6b);
     transform: scale(1.1);
 }
