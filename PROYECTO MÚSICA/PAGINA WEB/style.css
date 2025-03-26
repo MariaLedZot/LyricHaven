@@ -34,6 +34,10 @@ body {
     height: 100vh;
 }
 
+main{
+    width: 100%;
+}
+
 
 /* Encabezado */
 header {
@@ -164,27 +168,77 @@ header h1 {
 */
 
 
-/*Cuerpo start*/
+/*Cuerpo start-----------------------*/
 
 .Cuerpo{
     display: flex;
     padding: 0px;
     margin: 0px;
+    gap: 10px;
+    margin: 20px;
 }
 
-/**/
+/*Esta caja tiene todos los input y botones y todo lo de la der*/
 .filters{
     background-color: #919191;
+    padding: 10px;
 }
+/*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
 .filtroInput{
     border-radius: 10px 0 0 10px;
     padding: 5px;
+    margin: 0;
+    border: 0.5px, solid;
 }
 
+.filtroBuscar{
+    margin: 0;
+    gap: 0px;
+    display: flex;
+}
+.buscaBoton:hover{
+    background-color: #ac6f87;
+}
 .buscaBoton{
     border-radius: 0 10px  10px 0 ;
+    border: 0.5px, solid;
     padding: 5px;
     background-color: #924664;
+    margin: 0;
+}
+
+.filtroTitulo{
+    display: flex;
+    
+}
+
+.fotoFiltro{
+    position: relative;
+}
+
+.botonBuscarTodo{
+    padding: 5px;
+    border-radius: 5px;
+    border: #6e2543, 1px, solid;
+}
+
+.botonBuscarTodo:hover{
+    background-color: #924664;
+    color: white;
+    transition: 0.5s ease;
+}
+/*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
+.songsbox{
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+.song{
+    border: 1px solid;
+    display: flex;
+    
 }
 
 
