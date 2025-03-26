@@ -175,11 +175,13 @@ header h1 {
     padding: 0px;
     margin: 0px;
     gap: 10px;
+    margin: 20px;
 }
 
 /*Esta caja tiene todos los input y botones y todo lo de la der*/
 .filters{
     background-color: #919191;
+    padding: 10px;
 }
 /*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
 .filtroInput{
@@ -225,7 +227,7 @@ header h1 {
     color: white;
     transition: 0.5s ease;
 }
-
+/*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
 .songsbox{
     background-color: white;
     padding: 10px;
@@ -236,6 +238,7 @@ header h1 {
 .song{
     border: 1px solid;
     display: flex;
+    
 }
 
 
