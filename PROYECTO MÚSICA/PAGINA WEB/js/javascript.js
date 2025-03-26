@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const botonbuscartodo = document.getElementById("botonbuscartodo");// Botón para mostrar todos los usuarios
     const mensajesalida = document.getElementById("mensajesalida"); // Contenedor donde se mostrarán los resultados
 
-/**
+/** 
 * Función para consultar usuarios en el servidor. Si no se pasa ningún filtro devuelve todos los usuarios.
 * @param {string} filtro - Filtro que queremos aplicar a la búsqueda
 * @param {string} valor - Valor del filtro
@@ -25,8 +25,12 @@ async function consultarUsuarios(filtro = "todos", valor = "") {
     // Si se ha indicado un filtro, lo agregamos a la URL con parámetros de consulta
     if (filtro === "nombre") {
         url += `?nombre=${encodeURIComponent(valor)}`; // Búsqueda por nombre
-    } else if (filtro === "email") {
-        url += `?email=${encodeURIComponent(valor)}`; // Búsqueda por email
+    } else if (filtro === "autor") {
+        url += `?autor=${encodeURIComponent(valor)}`; // Búsqueda por autor
+    } else if (filtro === "duracion") {
+        url += `?duracion=${encodeURIComponent(valor)}`; // Búsqueda por duracion
+    } else if (filtro === "fechaLanzamiento") {
+        url += `?fechaLanzamiento=${encodeURIComponent(valor)}`; // Búsqueda por fechaLanzamiento        
     } else if (filtro === "hobbies") {
         let hobbiesArray = valor.split(",").map(h => h.trim());
         url += `?hobbies=${encodeURIComponent(JSON.stringify(hobbiesArray))}`; // Búsqueda por múltiples hobbies
