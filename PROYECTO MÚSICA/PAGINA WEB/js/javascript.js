@@ -28,10 +28,7 @@ async function consultarUsuarios(filtro = "todos", valor = "") {
     } else if (filtro === "duracion") {
         url += `?duracion=${encodeURIComponent(valor)}`; // Búsqueda por duracion
     } else if (filtro === "fechaLanzamiento") {
-        url += `?fechaLanzamiento=${encodeURIComponent(valor)}`; // Búsqueda por fechaLanzamiento        
-    } else if (filtro === "hobbies") {
-        let hobbiesArray = valor.split(",").map(h => h.trim());
-        url += `?hobbies=${encodeURIComponent(JSON.stringify(hobbiesArray))}`; // Búsqueda por múltiples hobbies
+        url += `?fechaLanzamiento=${encodeURIComponent(valor)}`; // Búsqueda por fechaLanzamiento
     }
 
 // Realizamos la petición al servidor con Fetch

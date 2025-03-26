@@ -30,7 +30,7 @@ return client.db(nombre_BD).collection(nombre_coleccion); // Devolvemos la colec
 
 // Funcionalidad GET de la base de datos para obtener los usuarios
 // Sería el equivalente a escribir en el navegador: http://localhost:3000/usuario
-app.get("/usuario", async (req, res) => {
+app.get("/Songs", async (req, res) => {
 try {
 const collection = await conectarDB(); // Obtenemos la colección de usuarios
 let filtro = {}; // Creamos un objeto vacío para aplicar filtros opcionales
