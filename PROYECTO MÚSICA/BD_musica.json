@@ -12,10 +12,10 @@
     "fechaLanzamiento": "2024"
     },
     {
-    "nombre": "I Kissed A Girl",
-    "autor": "Katty Perry",
-    "duracion": "3:00",
-    "fechaLanzamiento": "2008"
+    "nombre": "Desde la Eso",
+    "autor": "Chicxs rosas",
+    "duracion": "3:29",
+    "fechaLanzamiento": "2021"
     },
     {
     "nombre": "Que Te Quería",
@@ -36,7 +36,7 @@
     "fechaLanzamiento": "1988"
     },
     {
-    "nombre": "Clean (Taylor's Version)",
+    "nombre": "Clean (TV)",
     "autor": "Taylor Swift",
     "duracion": "4:31",
     "fechaLanzamiento": "2023"
@@ -48,19 +48,19 @@
     "fechaLanzamiento": "2024"
     },
     {
-    "nombre": "Forever & Always (Taylor's Version)",
+    "nombre": "Forever & Always (TV)",
     "autor": "Taylor Swift",
     "duracion": "3:45",
     "fechaLanzamiento": "2021"
     },
     {
-    "nombre": "Mr. Perfectly Fine (Taylor's Version)",
+    "nombre": "Mr. Perfectly Fine (TV)",
     "autor": "Taylor Swift",
     "duracion": "4:38",
     "fechaLanzamiento": "2021"
     },
     {
-    "nombre": "All Too Well (10 Minute Version) (Taylor's Version)",
+    "nombre": "All Too Well (10 MinV) (TV)",
     "autor": "Taylor Swift",
     "duracion": "10:13",
     "fechaLanzamiento": "2021"
@@ -241,7 +241,7 @@
     },
     {
     "nombre": "Viva La Vida",
-    "autor": "Imagine Dragons",
+    "autor": "Coldplay",
     "duracion": "4:02",
     "fechaLanzamiento": "2008"
     },
@@ -270,11 +270,11 @@
     "fechaLanzamiento": "2015"
     },
     {
-    "nombre": "Enemy",
+    "nombre": "Enemy (with JID)",
     "autor": "Imagine Dragons, J.I.D",
     "duracion": "2:53",
     "fechaLanzamiento": "2021"
-    },
+    },  
     {
     "nombre": "Thunder",
     "autor": "Imagine Dragons",
@@ -282,26 +282,20 @@
     "fechaLanzamiento": "2017"
     },
     {
-    "nombre": "Thunder",
-    "autor": "Imagine Dragons",
-    "duracion": "3:07",
-    "fechaLanzamiento": "2017"
-    },
-    {
-    "nombre": "Vilano",
-    "autor": "BZRP, Villano Antillano",
+    "nombre": "Villano Antillano: Bzrp Music Session, Vol. 51",
+    "autor": "Bizarrap, Villano Antillano",
     "duracion": "3:08",
     "fechaLanzamiento": "2022"
     },
     {
-    "nombre": "Stay",
+    "nombre": "STAY (with Justin Bieber)",
     "autor": "The Kid Laroi, Justin Bieber",
     "duracion": "2:38",
     "fechaLanzamiento": "2021"
     },
     {
-    "nombre": "Rather Be",
-    "autor": "Clean Bandit",
+    "nombre": "Rather Be (feat. Jess Glynne)",
+    "autor": "Clean Bandit, Jess Glynne",
     "duracion": "4:29",
     "fechaLanzamiento": "2014"
     }
