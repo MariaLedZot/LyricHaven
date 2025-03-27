@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Fletcher",
+        "genero": "Pop",
+        "fechaCreacion": "2015",
+        "integrantes": ["Cari Elise Fletcher"]
+    },
+    {
+        "nombre": "Fall Out Boy",
+        "genero": "Rock",
+        "fechaCreacion": "2001",
+        "integrantes": ["Patrick Stump", "Pete Wentz", "Joe Trohman", "Andy Hurley"]
+    },
+    {
+        "nombre": "Imagine Dragons",
+        "genero": "Rock Alternativo",
+        "fechaCreacion": "2008",
+        "integrantes": ["Dan Reynolds", "Wayne Sermon", "Ben McKee", "Daniel Platzman"]
+    },
+    {
+        "nombre": "Shawn Mendes",
+        "genero": "Pop",
+        "fechaCreacion": "2013",
+        "integrantes": ["Shawn Mendes"]
+    },
+    {
+        "nombre": "Mecano",
+        "genero": "Pop",
+        "fechaCreacion": "1981",
+        "integrantes": ["Ana Torroja", "José María Cano", "Nacho Cano"]
+    },
+    {
+        "nombre": "Taylor Swift",
+        "genero": "Pop/Country",
+        "fechaCreacion": "2006",
+        "integrantes": ["Taylor Swift"]
+    },
+    {
+        "nombre": "Villano Antillano",
+        "genero": "Urbano",
+        "fechaCreacion": "2019",
+        "integrantes": ["Villano Antillano"]
+    },
+    {
+        "nombre": "Tiago PZK",
+        "genero": "Urbano",
+        "fechaCreacion": "2017",
+        "integrantes": ["Tiago PZK"]
+    },
+    {
+        "nombre": "Clean Bandit",
+        "genero": "Electrónica",
+        "fechaCreacion": "2008",
+        "integrantes": ["Grace Chatto", "Jack Patterson", "Luke Patterson"]
+    },
+    {
+        "nombre": "ABBA",
+        "genero": "Pop",
+        "fechaCreacion": "1972",
+        "integrantes": ["Agnetha Fältskog", "Björn Ulvaeus", "Benny Andersson", "Anni-Frid Lyngstad"]
+    }
+]
