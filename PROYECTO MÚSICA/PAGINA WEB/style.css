@@ -449,6 +449,42 @@ footer {
 
 
 /*ABOUT-US*/
+
+.about-us{
+    display: flex;
+    padding: 10px;
+    gap: 5%;
+    margin: 30px;
+}
+
+.tarjeta{
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    min-width: 150px;
+    padding: 7px;
+}
+
+.imgAboutUs{
+    width: 80%;
+}
+
+.nombresAboutUs{
+    font-weight: bold;
+    color: #564e85;
+    margin: 9px;
+}
+
+.descAboutUs{
+    color: rgb(78, 70, 70);
+    margin: 7px;
+}
+.claseAboutUs{
+    color: rgb(71, 71, 71);
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
 /*FAVORITES*/
 /*LYRICS*/
 
