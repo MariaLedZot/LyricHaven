@@ -423,7 +423,35 @@ body.easter-egg-active {
 
 
 
+/*REDES FOOTER*/
 
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 
+.spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+}
 
+.insti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    text-align: center;
+}
 
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+}
