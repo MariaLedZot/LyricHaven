@@ -15,7 +15,7 @@
     color: #6e2543;
 }
 
-
+/*GENERAL*/
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +23,7 @@
     font-family: 'Arial', sans-serif;
 }
 
-
-/* Fondo general */
+/*FONDO GENERAL*/
 body {
     background: #F5E7D3;
     display: flex;
@@ -44,7 +43,6 @@ main{
 }
 
 /*Lo siguiente es para la animacion del fondo*/
-
 @keyframes animacionMain {
     0%{
         background-position: 0% 50%;
@@ -56,8 +54,6 @@ main{
         background-position: 50% 0%;
     }
 }
-
-
 
 
 /* HEADER */
@@ -75,6 +71,7 @@ header h1 {
     font-size: 26px;
     font-weight: bold;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
     /*ENLACES HEADER*/
@@ -85,6 +82,7 @@ header h1 {
         margin-bottom: 10px;
         position: relative;
         margin-left: auto;
+        margin-right: 10px;
     }
 
     .home {
@@ -170,6 +168,7 @@ footer {
         text-align: center;
     }
 
+/*FINALIZA LO GENERAL*/
 
 
 /* INDEX */
@@ -256,26 +255,215 @@ footer {
     transform: scale(1.1);
 }
 
-/* Animaciones */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    /* ANIMACIONES DEL INDEX */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes fadeInText {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bgMove {
+        from { transform: scale(1.1); }
+        to { transform: scale(1.2); }
+    }
+
+
+        /*EASTER EGG INDEX*/
+        /* Estilos para el Easter Egg */
+        .easter-egg-container {
+            position: fixed;
+            top: 40%; /* Mueve la imagen un poco más arriba */
+            left: 45%; /* Mueve la imagen un poco más a la izquierda */
+            transform: translate(-50%, -50%);
+            display: none; /* Oculta inicialmente */
+            z-index: 1000;
+            pointer-events: none; /* Evita que se pueda hacer clic en el contenedor */
+        }
+
+        #easter-egg-image {
+            width: 150px; /* Tamaño inicial de la imagen */
+            height: 150px; /* Tamaño inicial de la imagen */
+            position: absolute;
+            z-index: 1000;
+            animation: expandContract 0.7s infinite; /* Animación de expansión y contracción */
+        }
+
+        /* Animación de expansión y contracción */
+        @keyframes expandContract {
+            0% {
+                transform: scale(1); /* Tamaño original */
+            }
+            50% {
+                transform: scale(4); /* Aumenta el tamaño más (3 veces el tamaño original) */
+            }
+            100% {
+                transform: scale(1); /* Vuelve al tamaño original */
+            }
+        }
+
+        body.easter-egg-active {
+            background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493); /* Fondo colorido */
+            animation: colorChange 2s infinite alternate; /* Fondo animado de colores */
+        }
+
+        @keyframes colorChange {
+            0% {
+                background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493);
+            }
+            25% {
+                background: linear-gradient(135deg, #ff6347, #8a2be2, #ff4500, #32cd32);
+            }
+            50% {
+                background: linear-gradient(135deg, #f0e68c, #ffd700, #ff6347, #00ced1);
+            }
+            75% {
+                background: linear-gradient(135deg, #ff1493, #ff7f50, #adff2f, #ff6347);
+            }
+            100% {
+                background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493);
+            }
+        }
+
+
+/*START*/
+/*CUERPO START*/
+.Cuerpo{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+    margin: 20px;
 }
 
-@keyframes fadeInText {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+/*Esta caja tiene todos los input y botones y todo lo de la der*/
+.filters{
+    background-color: #D9D9D9; 
+    padding: 10px;
+    min-width: fit-content;
+    border-radius: 10px;
 }
 
-@keyframes slideUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+/*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
+.filtroInput{
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+    margin: 0;
+    border: 0.5px, solid;
 }
 
-@keyframes bgMove {
-    from { transform: scale(1.1); }
-    to { transform: scale(1.2); }
+.filtroBuscar{
+    margin-bottom: 5px;
+    gap: 0px;
+    display: flex;
 }
+.buscaBoton:hover{
+    background-color: #ac6f87;
+}
+.buscaBoton{
+    border-radius: 0 10px  10px 0 ;
+    border: 0.5px, solid;
+    padding: 5px;
+    background-color: #924664;
+    margin: 0;
+}
+
+.filtroTitulo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fotoFiltro{
+    position: relative;
+    width: 30px;
+    margin-left: auto;
+}
+
+.botonBuscarTodo{
+    padding: 5px;
+    border-radius: 5px;
+    border: #6e2543, 1px, solid;
+}
+
+.botonBuscarTodo:hover{
+    background-color: #924664;
+    color: white;
+    transition: 0.5s ease;
+}
+
+/*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
+.songsbox{
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+.song{
+    border: 1px solid;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.TituloCancion{
+    padding: 7px;
+    background-color: #6e2543;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/*La img y la info*/
+.contenidoSong{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 6px;
+}
+
+/*Caja con los datos*/
+.info{
+    text-align: left;
+    gap: 10px;
+}
+.parr{
+    margin-bottom: 7px;
+}
+
+.imgBuscador{
+    width: 150px;
+    height: 150px;
+}
+
+
+/*ABOUT-US*/
+/*FAVORITES*/
+/*LYRICS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*INDEX ANTERIOR, mirad si quereis conservar algo de ahi*/
 /*
@@ -334,189 +522,3 @@ footer {
     z-index: 1;
 }
 */
-
-
-/*Cuerpo start-----------------------*/
-
-.Cuerpo{
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    gap: 10px;
-    margin: 20px;
-}
-
-
-/*Esta caja tiene todos los input y botones y todo lo de la der*/
-.filters{
-    background-color: #D9D9D9; 
-    padding: 10px;
-    min-width: fit-content;
-    border-radius: 10px;
-}
-
-
-/*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
-.filtroInput{
-    border-radius: 10px 0 0 10px;
-    padding: 5px;
-    margin: 0;
-    border: 0.5px, solid;
-}
-
-.filtroBuscar{
-    margin-bottom: 5px;
-    gap: 0px;
-    display: flex;
-}
-.buscaBoton:hover{
-    background-color: #ac6f87;
-}
-.buscaBoton{
-    border-radius: 0 10px  10px 0 ;
-    border: 0.5px, solid;
-    padding: 5px;
-    background-color: #924664;
-    margin: 0;
-}
-
-.filtroTitulo{
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.fotoFiltro{
-    position: relative;
-    width: 30px;
-    margin-left: auto;
-}
-
-.botonBuscarTodo{
-    padding: 5px;
-    border-radius: 5px;
-    border: #6e2543, 1px, solid;
-}
-
-.botonBuscarTodo:hover{
-    background-color: #924664;
-    color: white;
-    transition: 0.5s ease;
-}
-
-
-/*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
-.songsbox{
-    background-color: white;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
-    width: 70%;
-    justify-content: center;
-    text-align: center;
-}
-
-.song{
-    border: 1px solid;
-    max-width: 300px;
-    min-width: 250px;
-}
-
-.TituloCancion{
-    padding: 7px;
-    background-color: #6e2543;
-    text-align: left;
-    padding-left: 15px;
-}
-
-/*La img y la info*/
-.contenidoSong{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 6px;
-}
-
-/*Caja con los datos*/
-.info{
-    text-align: left;
-    gap: 10px;
-}
-.parr{
-    margin-bottom: 7px;
-}
-
-.imgBuscador{
-    width: 150px;
-    height: 150px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilos para el Easter Egg */
-.easter-egg-container {
-    position: fixed;
-    top: 40%; /* Mueve la imagen un poco más arriba */
-    left: 45%; /* Mueve la imagen un poco más a la izquierda */
-    transform: translate(-50%, -50%);
-    display: none; /* Oculta inicialmente */
-    z-index: 1000;
-    pointer-events: none; /* Evita que se pueda hacer clic en el contenedor */
-}
-
-#easter-egg-image {
-    width: 150px; /* Tamaño inicial de la imagen */
-    height: 150px; /* Tamaño inicial de la imagen */
-    position: absolute;
-    z-index: 1000;
-    animation: expandContract 0.7s infinite; /* Animación de expansión y contracción */
-}
-
-/* Animación de expansión y contracción */
-@keyframes expandContract {
-    0% {
-        transform: scale(1); /* Tamaño original */
-    }
-    50% {
-        transform: scale(4); /* Aumenta el tamaño más (3 veces el tamaño original) */
-    }
-    100% {
-        transform: scale(1); /* Vuelve al tamaño original */
-    }
-}
-
-body.easter-egg-active {
-    background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493); /* Fondo colorido */
-    animation: colorChange 2s infinite alternate; /* Fondo animado de colores */
-}
-
-@keyframes colorChange {
-    0% {
-        background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493);
-    }
-    25% {
-        background: linear-gradient(135deg, #ff6347, #8a2be2, #ff4500, #32cd32);
-    }
-    50% {
-        background: linear-gradient(135deg, #f0e68c, #ffd700, #ff6347, #00ced1);
-    }
-    75% {
-        background: linear-gradient(135deg, #ff1493, #ff7f50, #adff2f, #ff6347);
-    }
-    100% {
-        background: linear-gradient(135deg, #ff7f50, #6a5acd, #32cd32, #ff1493);
-    }
-}
-
-
