@@ -61,7 +61,7 @@ header h1 {
         display: flex;
         justify-content: center;
         gap: 10px;
-        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .home {
@@ -84,7 +84,7 @@ header h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40px;
+        height: 45px;
         text-align: center;
     }
 
@@ -92,8 +92,9 @@ header h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 20px;
+        height: 25px;
         text-align: center;
+        margin-top: 10px;
     }
 
 
