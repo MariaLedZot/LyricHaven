@@ -40,7 +40,7 @@ main{
 }
 
 
-/* Encabezado */
+/* HEADER */
 header {
     width: 100%;
     background: #6e2543; /* Marrón cálido */
@@ -50,14 +50,99 @@ header {
     display: flex;
 }
 
-
 header h1 {
     color: white;
     font-size: 26px;
     font-weight: bold;
 }
 
+    /*ENLACES HEADER*/
+    .enlaces {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
 
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        text-align: center;
+    }
+
+    .user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        text-align: center;
+    }
+
+    .heart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        text-align: center;
+    }
+
+    .note {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        text-align: center;
+    }
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background: #6e2543; /* Mismo color que el header */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+    /*REDES FOOTER*/
+    .redes{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .spotify {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        text-align: center;
+    }
+
+    .insti {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        text-align: center;
+    }
 
 
 
@@ -235,6 +320,7 @@ header h1 {
     margin: 20px;
 }
 
+
 /*Esta caja tiene todos los input y botones y todo lo de la der*/
 .filters{
     background-color: #D9D9D9; 
@@ -242,6 +328,8 @@ header h1 {
     min-width: fit-content;
     border-radius: 10px;
 }
+
+
 /*Dentro de filtroBoton(la caja) esta dentro el filtroInput y buscaBoton*/
 .filtroInput{
     border-radius: 10px 0 0 10px;
@@ -288,6 +376,8 @@ header h1 {
     color: white;
     transition: 0.5s ease;
 }
+
+
 /*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
 .songsbox{
     background-color: white;
@@ -347,20 +437,7 @@ header h1 {
 
 
 
-footer {
-    width: 100%;
-    background: #6e2543; /* Mismo color que el header */
-    padding: 20px 0;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
-}
 
-/* Estilos para el Easter Egg */
 /* Estilos para el Easter Egg */
 .easter-egg-container {
     position: fixed;
@@ -417,42 +494,3 @@ body.easter-egg-active {
 }
 
 
-
-
-
-
-
-
-/*REDES FOOTER*/
-
-.redes{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.spotify {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    text-align: center;
-}
-
-.insti {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    text-align: center;
-    margin-right: 5px;
-}
-
-.github {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    text-align: center;
-}
