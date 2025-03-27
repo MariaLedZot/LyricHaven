@@ -71,7 +71,7 @@ div.innerHTML = `<p><strong><u>Nombre:</u></strong> <span>${canciones.nombre}</s
 }
 
 // Eventos de búsqueda
-botonbuscarpornombre.addEventListener("click", () => consultarUsuarios("nombre", busquedapornombre.value.trim())); // Buscar por nombre
+busquedapornombre.addEventListener("click", () => consultarUsuarios("nombre", busquedapornombre.value.trim())); // Buscar por nombre
 busquedaporautor.addEventListener("click", () => consultarUsuarios("autor", busquedaporautor.value.trim())); // Buscar por
 busquedaporfecha.addEventListener("click", () => consultarUsuarios("fechaLanzamiento", busquedaporfecha.value.trim())); // 
 botonbuscarporduracion.addEventListener("click", () => consultarUsuarios("duracion", botonbuscarporduracion.value.trim())); // 
