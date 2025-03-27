@@ -376,7 +376,7 @@ footer {
     height: 150px; /* Tamaño inicial de la imagen */
     position: absolute;
     z-index: 1000;
-    animation: expandContract 1s infinite; /* Animación de expansión y contracción */
+    animation: expandContract 0.7s infinite; /* Animación de expansión y contracción */
 }
 
 /* Animación de expansión y contracción */
@@ -385,7 +385,7 @@ footer {
         transform: scale(1); /* Tamaño original */
     }
     50% {
-        transform: scale(3); /* Aumenta el tamaño más (3 veces el tamaño original) */
+        transform: scale(4); /* Aumenta el tamaño más (3 veces el tamaño original) */
     }
     100% {
         transform: scale(1); /* Vuelve al tamaño original */

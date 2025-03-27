@@ -55,7 +55,7 @@ document.body.addEventListener('click', () => {
         clickCount++; // Incrementar el contador de clics
 
         // Si llega a 3 clics, ocultamos el Easter Egg
-        if (clickCount === 3) {
+        if (clickCount === 5) {
             ocultarEasterEgg();
         }
     }
