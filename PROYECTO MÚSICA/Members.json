@@ -1,0 +1,117 @@
+[
+    {
+        "nombre": "Cari Elise Fletcher",
+        "edad": "30",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Patrick Stump",
+        "edad": "40",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Pete Wentz",
+        "edad": "44",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Joe Trohman",
+        "edad": "39",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Andy Hurley",
+        "edad": "43",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Dan Reynolds",
+        "edad": "36",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Wayne Sermon",
+        "edad": "39",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Ben McKee",
+        "edad": "38",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Daniel Platzman",
+        "edad": "37",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Shawn Mendes",
+        "edad": "25",
+        "nacionalidad": "Canadiense"
+    },
+    {
+        "nombre": "Ana Torroja",
+        "edad": "63",
+        "nacionalidad": "Española"
+    },
+    {
+        "nombre": "José María Cano",
+        "edad": "66",
+        "nacionalidad": "Española"
+    },
+    {
+        "nombre": "Nacho Cano",
+        "edad": "61",
+        "nacionalidad": "Española"
+    },
+    {
+        "nombre": "Taylor Swift",
+        "edad": "34",
+        "nacionalidad": "Estadounidense"
+    },
+    {
+        "nombre": "Villano Antillano",
+        "edad": "28",
+        "nacionalidad": "Puertorriqueña"
+    },
+    {
+        "nombre": "Tiago PZK",
+        "edad": "22",
+        "nacionalidad": "Argentina"
+    },
+    {
+        "nombre": "Grace Chatto",
+        "edad": "38",
+        "nacionalidad": "Británica"
+    },
+    {
+        "nombre": "Jack Patterson",
+        "edad": "38",
+        "nacionalidad": "Británica"
+    },
+    {
+        "nombre": "Luke Patterson",
+        "edad": "31",
+        "nacionalidad": "Británica"
+    },
+    {
+        "nombre": "Agnetha Fältskog",
+        "edad": "73",
+        "nacionalidad": "Sueca"
+    },
+    {
+        "nombre": "Björn Ulvaeus",
+        "edad": "78",
+        "nacionalidad": "Sueca"
+    },
+    {
+        "nombre": "Benny Andersson",
+        "edad": "77",
+        "nacionalidad": "Sueca"
+    },
+    {
+        "nombre": "Anni-Frid Lyngstad",
+        "edad": "78",
+        "nacionalidad": "Noruega"
+    }
+]
