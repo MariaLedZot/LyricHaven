@@ -74,6 +74,7 @@ header h1 {
     color: white;
     font-size: 26px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
     /*ENLACES HEADER*/
@@ -82,23 +83,26 @@ header h1 {
         justify-content: center;
         gap: 10px;
         margin-bottom: 10px;
+        position: relative;
+        margin-left: auto;
     }
 
     .home {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 30px;
+        height: 35px;
         text-align: center;
+        margin-top: 5px;
     }
 
     .user {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35px;
+        height: 38px;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 4px;
     }
 
     .heart {
