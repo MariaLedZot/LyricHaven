@@ -446,6 +446,7 @@ body.easter-egg-active {
     align-items: center;
     height: 30px;
     text-align: center;
+    margin-right: 5px;
 }
 
 .github {
