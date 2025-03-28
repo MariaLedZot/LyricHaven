@@ -449,7 +449,6 @@ footer {
 
 
 /*ABOUT-US*/
-
 .about-us{
     display: flex;
     padding: 10px;
@@ -494,6 +493,42 @@ iframe{
 }
 
 /*FAVORITES*/
+.favorites{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.favs{
+    background-color: #D9D9D9; 
+    padding: 10px;
+    min-width: fit-content;
+    border-radius: 10px;
+}
+
+.nombreFav{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.videoFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.audioFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+
 /*LYRICS*/
 
 
