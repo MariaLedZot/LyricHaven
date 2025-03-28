@@ -34,10 +34,12 @@ body {
     overflow: hidden;
 }
 
+
+
 main{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(-45deg, #9c3f8a,#1b1122, #363f92,  #1f0735, #aa6c9d);
+    background-image: linear-gradient(-45deg, #9c3f8a,#1b1122, #523692,  #1f0735, #aa6c9d);
     background-size: 500%;
     animation: animacionMain 14s infinite;
 }
@@ -59,7 +61,7 @@ main{
 /* HEADER */
 header {
     width: 100%;
-    background: #6e2543; /* Marrón cálido */
+    background: linear-gradient(45deg, #615E5E, #262121);
     padding: 15px 0;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -124,7 +126,7 @@ header h1 {
 /*FOOTER*/
 footer {
     width: 100%;
-    background: #6e2543; /* Mismo color que el header */
+    background: linear-gradient(45deg, #615E5E, #262121);
     padding: 20px 0;
     text-align: center;
     color: white;
