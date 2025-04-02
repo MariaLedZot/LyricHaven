@@ -414,7 +414,8 @@ footer {
 }
 
 .song{
-    border: 1px solid;
+    border: 0.5px solid #615E5E;
+    border-radius: 10px;
     max-width: 300px;
     min-width: 250px;
 }
@@ -424,6 +425,8 @@ footer {
     background-color: #6e2543;
     text-align: left;
     padding-left: 15px;
+    color: white;
+    border-radius: 10px;
 }
 
 /*La img y la info*/

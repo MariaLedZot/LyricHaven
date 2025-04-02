@@ -80,7 +80,7 @@ let div = document.createElement("div");
 div.classList.add("song");
 const cajaMain = document.getElementById("songsbox");
 div.classList.add("grid-item"); // Clase CSS para el estilo del grid
-div.innerHTML = `<h3><span>${canciones.nombre}</span></h3>
+div.innerHTML = `<h3 class="TituloCancion"><span>${canciones.nombre}</span></h3>
 <div class="contenidoSong">
     <img class="imgBuscador" src="../images/imagen.png" alt="Foto">
     <div class="info">
