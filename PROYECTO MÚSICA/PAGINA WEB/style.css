@@ -344,6 +344,7 @@ footer {
     margin: 0px;
     gap: 10px;
     margin: 20px;
+    max-height: 70%;
 }
 
 /*Esta caja tiene todos los input y botones y todo lo de la der*/
@@ -404,13 +405,16 @@ footer {
 /*Esta es la caja con los "songs" donde tiene las caja de las canciones*/
 .songsbox{
     background-color: white;
+    border-radius: 10px;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
     width: 70%;
     justify-content: center;
     text-align: center;
+    overflow: auto; 
 }
 
 .song{
@@ -432,9 +436,8 @@ footer {
 /*La img y la info*/
 .contenidoSong{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    justify-content: left;
+    text-align: left;
     gap: 6px;
 }
 
@@ -450,6 +453,7 @@ footer {
 .imgBuscador{
     width: 150px;
     height: 150px;
+
 }
 
 
