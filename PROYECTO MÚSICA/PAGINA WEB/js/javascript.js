@@ -57,15 +57,39 @@ mensajesalida.innerHTML = "<p>No se encontraron usuarios.</p>";
 
 return;
 }
+/*
+
+                <div class="song">
+                    <h3 class="TituloCancion">Troblemaker</h3>
+                    <div class="contenidoSong">
+                        <img class="imgBuscador" src="../images/imagen.png" alt="Foto">
+                        <div class="info">
+                            <p class="parr">🎤 Olly Murs</p>
+                            <p class="parr">⏱️ 3:05</p>
+                            <p class="parr">🎹 2012</p>
+                        </div>
+                    </div>
+                </div>
+
+
+*/
 
 // Recorremos la lista de usuarios y creamos un div para cada uno
-canciones.forEach(Songs => {
+canciones.forEach(canciones => {
 let div = document.createElement("div");
+div.classList.add("song");
+const cajaMain = document.getElementById("songsbox");
 div.classList.add("grid-item"); // Clase CSS para el estilo del grid
-div.innerHTML = `<p><strong><u>Nombre:</u></strong> <span>${canciones.nombre}</span></p>
-<p><strong><u>Email:</u></strong> <span>${canciones.autor}</span></p>
-<p><strong><u>Edad:</u></strong> <span>${canciones.duracion}</span></p>
-<p><strong><u>Ciudad:</u></strong> <span>${canciones.fechaLanzamiento}</span></p>`;
+div.innerHTML = `<h3><span>${canciones.nombre}</span></h3>
+<div class="contenidoSong">
+    <img class="imgBuscador" src="../images/imagen.png" alt="Foto">
+    <div class="info">
+        <p class="parr">🎤 <span>${canciones.autor}</span></p>
+        <p class="parr">⏱️ <span>${canciones.duracion}</span></p>
+        <p class="parr">🎹 <span>${canciones.fechaLanzamiento}</span></p>
+    </div>
+</div>`;
+ cajaMain.appendChild(div);
  mensajesalida.appendChild(div); // Agregamos el div al contenedor de salida
 });
 }
